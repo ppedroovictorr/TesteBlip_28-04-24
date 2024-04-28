@@ -4,6 +4,7 @@
     <_SelectedScaffolderID>ApiControllerWithActionsScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <ActiveDebugProfile>Bot</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\Pedro Victor\Desktop\BLIP\Bot\Properties\PublishProfiles\Bot20240428101034 - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

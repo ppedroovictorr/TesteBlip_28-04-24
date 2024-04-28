@@ -1,0 +1,16 @@
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Bot.exe
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Bot.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Bot.deps.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Bot.runtimeconfig.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Bot.pdb
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\System.Net.Http.Json.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\System.Text.Encodings.Web.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\obj\Release\net5.0\PubTmp\Out\System.Text.Json.dll

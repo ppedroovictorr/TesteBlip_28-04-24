@@ -1,0 +1,16 @@
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Bot.exe
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Bot.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Bot.deps.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Bot.runtimeconfig.json
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Bot.pdb
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Microsoft.OpenApi.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\System.Net.Http.Json.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\System.Text.Encodings.Web.dll
+C:\Users\Pedro Victor\Desktop\BLIP\Bot\bin\Debug\net5.0\publish\System.Text.Json.dll
