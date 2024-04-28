@@ -45,7 +45,7 @@ namespace Bot.Repos
 
         }
 
-        public async Task<User> GetAvatar()
+        private async Task<User> GetAvatar()
         {
             try
             {
@@ -59,7 +59,7 @@ namespace Bot.Repos
             }
         }
 
-        public async Task<List<Repository>> GetOlderRepos()
+        private async Task<List<Repository>> GetOlderRepos()
         {
             try
             {
