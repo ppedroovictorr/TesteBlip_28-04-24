@@ -31,10 +31,8 @@ namespace Bot.Controllers
         {
             try
             {
-                var response = await _services.GetAvatar();
-                var repos = await _services.GetOlderRepos();
-                response.Repositories = repos;
-                return Ok(response);
+                var results = await _services.GetResults();
+                return Ok(results);
             }
             catch (HttpRequestException ex)
             {

@@ -14,17 +14,41 @@ namespace Bot.Repos
     {
         private const string Dotnet = "C#";
         private readonly HttpClient _httpClient;
+        string restFullRote = "takenet/repos";
 
         public GitHubServices(IHttpClientFactory httpClientFactory)
         {
             _httpClient = httpClientFactory.CreateClient();
             _httpClient.BaseAddress = new Uri("https://api.github.com/orgs/");
+            _httpClient.DefaultRequestHeaders.Add("User-Agent", "ppedroovictorr");
+
         }
+
+
+        string _avatarUrl = "";
+
+        public async Task<User> GetResults()
+        {
+            var results = await GetAvatar();
+            var repos = await GetOlderRepos();
+            results.Repositories = repos;
+
+
+            return results;
+        }
+
+        private List<Repository> SortReposAsync(List<Repository> repos)
+        {
+            var dotnetRepositories = repos.Where(r => !string.IsNullOrEmpty(r.Language) && r.Language.Equals(Dotnet)).ToList();
+            var reposByDate = dotnetRepositories.OrderBy(d => d.Created_at).Take(5).ToList();
+            return reposByDate;
+
+        }
+
         public async Task<User> GetAvatar()
         {
             try
             {
-                _httpClient.DefaultRequestHeaders.Add("User-Agent", "ppedroovictorr");
                 var userResponse = await _httpClient.GetFromJsonAsync<User>("takenet");
                 return userResponse;
             }
@@ -39,11 +63,8 @@ namespace Bot.Repos
         {
             try
             {
-                _httpClient.DefaultRequestHeaders.Add("User-Agent", "ppedroovictorr");
-                var userResponse = await _httpClient.GetFromJsonAsync<User>("takenet");
-                var response = await _httpClient.GetFromJsonAsync<List<Repository>>("takenet/repos");
-                var dotnetRepositories = response.Where(r => !string.IsNullOrEmpty(r.Language) && r.Language.Equals(Dotnet)).ToList();
-                var reposByDate = dotnetRepositories.OrderBy(d => d.Created_at).Take(5).ToList();
+                var response = await _httpClient.GetFromJsonAsync<List<Repository>>(restFullRote);
+                var reposByDate = SortReposAsync(response);
                 return reposByDate;
             }
             catch (Exception ex)
